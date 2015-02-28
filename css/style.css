@@ -7,7 +7,7 @@ a {
 }
 
 ul.projects-list li {
-    background-color:#ddd;
+    background-color:#f7f7f7;
     padding:1em;
     width:auto;
     color:#000;
@@ -21,4 +21,5 @@ p.web-technologies {
 p.project-name {
     font-size:1em;
     clear:none;
+    font-weight:bold;
 }
