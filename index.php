@@ -35,10 +35,15 @@
 		<div class="one-half column" style="margin-top: 25%">
 			<h4>My name is Joel Perry and this my web development portfolio.</h4>
 
-			<ul>
+			<ul class="projects-list">
 				<?php foreach ($projects as $project): ?>
 					<a href="<?= $project->url ?>">
-						<li><?= $project->name ?></li>
+						<li>
+              <span class="project-name"><?= $project->name ?></span>
+              <p class="web-technologies">
+                <?= implode(', ', $project->technologies) ?>
+              </p>
+            </li>
 					</a>
 				<?php endforeach; ?>
 			</ul>

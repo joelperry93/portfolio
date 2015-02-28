@@ -5,3 +5,20 @@ li {
 a {    
     text-decoration:none;
 }
+
+ul.projects-list li {
+    background-color:#ddd;
+    padding:1em;
+    width:auto;
+    color:#000;
+}
+
+p.web-technologies { 
+    float:right;
+    color: #D61E1E;
+}
+
+p.project-name {
+    font-size:1em;
+    clear:none;
+}
