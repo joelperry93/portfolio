@@ -30,6 +30,16 @@ p.project-name {
     font-weight:bold;
 }
 
+.icon {
+    float:right;
+    margin-left:1.5em;
+    color:black;
+}
+
+.icons {
+    margin:1em;
+}
+
 header { 
     padding:2em 0em 1em 0em;
 }

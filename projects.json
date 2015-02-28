@@ -20,7 +20,7 @@
     {
         "name" : "shrt-clothing",
         "url"  : "/shrt-clothing/",
-        "technologies" : ["php", "sqlite3", "javascript", "css"],
+        "technologies" : ["javascript", "sqlite3", "php", "css"],
         "image" : { "url" : "img/projects/shrt-clothing.png" }
     }
 ]

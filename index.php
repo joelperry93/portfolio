@@ -9,6 +9,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -22,11 +24,21 @@
 <div class="container">
 	<div class="row">
         <div class="twelve column">
-            <header>
-      			<h4>Joel Perry | Web Development</h4>
+            <header class="row">
+                <h4 class="eight columns">Joel Perry | Web Development</h4>
+                
+                <div class="four columns icons">
+                    <a href="https://github.com/joelperry93">
+                        <i class="fa fa-envelope-o icon"> email me</i>
+                    </a>
+                    <a href="mailto:joelperry@me.com">
+                        <i class="fa fa-github icon"> github</i>
+                    </a>
+                </div>
             </header>
 
 			<ul class="projects-list row">
+
 				<?php foreach ($projects as $project): ?>
 					<a href="<?= $project->url ?>">
 						<li class="six columns project" style="background-image:url('<?= $project->image->url; ?>');">                            
@@ -41,6 +53,7 @@
                         </li>
 					</a>
 				<?php endforeach; ?>
+
 			</ul>
 		</div>
 	</div>
