@@ -6,12 +6,15 @@ a {
     text-decoration:none;
 }
 
-ul.projects-list li {
+ul.projects-list li.project {
     background-color:#f7f7f7;
-    padding:1em;
     min-height:300px;
     color:#fff;
     margin-right:1em;
+    display:block;
+    position:relative;
+    padding:0px;
+    background-size:cover;
 }
 
 p.web-technologies { 
@@ -27,11 +30,11 @@ p.project-name {
 }
 
 header { 
-    padding:2.5em 0em;
+    padding:2em 0em 1em 0em;
 }
 
 li.project { 
-    display:block;
+
 }
 
 img.project-preview-image { 
@@ -41,9 +44,10 @@ img.project-preview-image {
 }
 
 .project-preview-footer {
-    height:30px;
-    padding:10px 15px;
+    padding:2% 5%;
     background-color:#000;
-    opacity:0.5;
-    margin-top:-50px;
+    opacity:0.7;
+    position:absolute;
+    width:90%;
+    bottom:0px;
 }

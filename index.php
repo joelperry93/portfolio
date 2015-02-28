@@ -23,21 +23,19 @@
 	<div class="row">
         <div class="twelve column">
             <header>
-      			<h4>Joel Perry's Web Development Portfolio.</h4>
+      			<h4>Joel Perry | Web Development</h4>
             </header>
 
 			<ul class="projects-list row">
 				<?php foreach ($projects as $project): ?>
 					<a href="<?= $project->url ?>">
-						<li class="project six columns">
-                            <img src="<?= $project->image->url; ?>" class="project-preview-image" />
-                            
-                            <div class="row project-preview-footer">
+						<li class="six columns project" style="background-image:url('<?= $project->image->url; ?>');">                            
+                            <div class="project-preview-footer">
                                 <div class="one-half column project-name">
                                     <?= $project->name ?>
                                 </div>
 
-                                <p class="one-half column web-technologies">
+                                <p class="one-half column web-technologies pull-right">
                                     <?= implode(', ', $project->technologies) ?>
                                 </p>
                             </div>
