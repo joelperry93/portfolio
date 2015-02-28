@@ -10,5 +10,11 @@
         "url"  : "/pong-html5/",
         "technologies" : ["html5", "javascript", "css"],
         "image" : { "url" : "img/projects/pong-html5.png" }
+    }   , 
+    {
+        "name" : "automated-future",
+        "url"  : "http://automatedfuture.org/",
+        "technologies" : ["wordpress", "php", "css"],
+        "image" : { "url" : "img/projects/automated-future.png" }
     }
 ]

@@ -10,7 +10,7 @@ ul.projects-list li.project {
     background-color:#f7f7f7;
     min-height:300px;
     color:#fff;
-    margin-right:1em;
+    margin:0px 1em 1em 0em;
     display:block;
     position:relative;
     padding:0px;
