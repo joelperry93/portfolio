@@ -20,6 +20,7 @@ ul.projects-list li.project {
 p.web-technologies { 
     float:right;
     color: #fff;
+    margin-bottom:0.5em;
     font-size:1rem;
 }
 

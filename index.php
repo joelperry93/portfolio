@@ -30,12 +30,11 @@
 				<?php foreach ($projects as $project): ?>
 					<a href="<?= $project->url ?>">
 						<li class="six columns project" style="background-image:url('<?= $project->image->url; ?>');">                            
-                            <div class="project-preview-footer">
-                                <div class="one-half column project-name">
+                            <div class="project-preview-footer row">
+                                <div class="twelve column project-name">
                                     <?= $project->name ?>
                                 </div>
-
-                                <p class="one-half column web-technologies pull-right">
+                                <p class="twelve column web-technologies pull-right">
                                     <?= implode(', ', $project->technologies) ?>
                                 </p>
                             </div>
