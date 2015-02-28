@@ -2,11 +2,13 @@
     {
         "name" : "shawfire-fitness",
         "url"  : "/shawfire-fitness/",
-        "technologies" : ["php", "html5", "javascript", "css"]
+        "technologies" : ["php", "html5", "javascript", "css"],
+        "image" : { "url" : "img/projects/shawfire-fitness.png" }
     },
     {
         "name" : "pong-html5",
         "url"  : "/pong-html5/",
-        "technologies" : ["html5", "javascript", "css"]
+        "technologies" : ["html5", "javascript", "css"],
+        "image" : { "url" : "img/projects/pong-html5.png" }
     }
 ]

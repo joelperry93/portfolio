@@ -9,17 +9,41 @@ a {
 ul.projects-list li {
     background-color:#f7f7f7;
     padding:1em;
-    width:auto;
-    color:#000;
+    min-height:300px;
+    color:#fff;
+    margin-right:1em;
 }
 
 p.web-technologies { 
     float:right;
-    color: #D61E1E;
+    color: #fff;
+    font-size:1rem;
 }
 
 p.project-name {
     font-size:1em;
     clear:none;
     font-weight:bold;
+}
+
+header { 
+    padding:2.5em 0em;
+}
+
+li.project { 
+    display:block;
+}
+
+img.project-preview-image { 
+    width:370px;
+    height:300px;
+    margin:0;
+}
+
+.project-preview-footer {
+    height:30px;
+    padding:10px 15px;
+    background-color:#000;
+    opacity:0.5;
+    margin-top:-50px;
 }
