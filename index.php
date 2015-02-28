@@ -28,10 +28,10 @@
                 <h4 class="eight columns">Joel Perry | Web Development</h4>
                 
                 <div class="four columns icons">
-                    <a href="https://github.com/joelperry93">
+                    <a href="mailto:joelperry@me.com">
                         <i class="fa fa-envelope-o icon"> email me</i>
                     </a>
-                    <a href="mailto:joelperry@me.com">
+                    <a href="https://github.com/joelperry93">
                         <i class="fa fa-github icon"> github</i>
                     </a>
                 </div>
